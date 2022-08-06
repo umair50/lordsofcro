@@ -1,0 +1,8 @@
+.main-container {
+  display: flex;
+  /* margin-left: -1vw; */
+}
+.main-image-banner {
+  width: 100%;
+  height: auto;
+}

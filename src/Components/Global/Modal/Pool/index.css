@@ -1,0 +1,60 @@
+.modal-content-head {
+  display: flex;
+  /* padding-top: 34px; */
+  justify-content: center;
+}
+.modal-button-earn-loc {
+  /* padding: 10px; */
+  color: #fff;
+  cursor: pointer;
+  font-size: 2vw;
+  font-weight: 600;
+  font-family: "TITILLIUMWEB-REGULAR";
+  letter-spacing: 0.1px;
+  line-height: 2vw;
+  padding-left: 0.9vw;
+}
+
+.unselectedTab-modal {
+  cursor: pointer;
+  color: #372f47;
+  font-size: 1.6vw;
+  letter-spacing: 0.1px;
+  line-height: 2vw;
+  font-family: "TITILLIUMWEB-REGULAR";
+  padding-left: 0.9vw;
+  /* padding-top: 0.9vw; */
+}
+.image-first {
+  border: 3px groove green;
+}
+.select-value {
+  color: black;
+}
+.option-data {
+  color: white;
+  background-color: transparent;
+}
+.font-awesome-val {
+  cursor: pointer;
+  color: #e3e3e4;
+}
+.icon {
+  /* padding-left: 8em; */
+  padding-left: 10vw;
+  display: flex;
+  align-items: center;
+}
+.icon .fa-1x {
+  font-size: 1.4vw;
+}
+
+@media (min-width: 1200px) {
+  .modal-button-earn-loc {
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+  .modal-content-head {
+    margin-left: -0.4vw;
+  }
+}

@@ -1,0 +1,158 @@
+.image-main-stake {
+  display: flex;
+  align-items: center;
+}
+.drop-down-menu-stake {
+  color: black;
+  width: 7.4vw;
+  height: auto;
+  padding-top: 0.4vw;
+}
+.input-field-stake {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.6vw;
+}
+.input-data-stake {
+  width: 100%;
+  padding: 0.9vw 0vw 1vw 1vw;
+  border: none;
+  font-family: "TITILLIUMWEB-REGULAR";
+  font-size: 1.4vw;
+  letter-spacing: 0.1px;
+  color: #fff;
+  background-color: #372f47;
+  border-radius: 0.6vw;
+}
+input:focus {
+  box-shadow: none;
+}
+.arrow-data-stake {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.6vw;
+}
+
+.arrow-data-stake .fa-1x {
+  font-size: 1.4vw;
+}
+
+.input-field-2-stake {
+  width: 7.4vw;
+  height: auto;
+  padding-top: 0.4vw;
+  /* margin-left: -1.1vw; */
+}
+.input-field-loc-stake {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+.input-data-loc-stake {
+  width: 100%;
+  padding: 0.9vw 0vw 1vw 1vw;
+  border: none;
+  font-family: "TITILLIUMWEB-REGULAR";
+  font-size: 1.4vw;
+  letter-spacing: 0.1px;
+  color: #fff;
+  background-color: #372f47;
+  border-radius: 0.6vw;
+}
+.footer-header-stake {
+  /* padding-left: 0.8vw; */
+  padding-top: 0.9vw;
+  font-family: "SourceSansPro-Regular";
+  font-size: 1.4vw;
+  font-weight: 600;
+  line-height: 2vw;
+  letter-spacing: 0.01px;
+}
+.footer-data-stake {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-data1-stake {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-data2-stake {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-data3-stake {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.currency-val-stake {
+  font-family: "SourceSansPro-Regular";
+  font-size: 1.4vw;
+  line-height: 2vw;
+  letter-spacing: 0.1px;
+  background: linear-gradient(90deg, #ffca2c 0%, #ffbf00 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.footer-value-stake {
+  color: #929aa5;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.8vw;
+  font-family: "SourceSansPro-Regular";
+}
+.footer-button-stake {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.6vw;
+  /* padding-bottom: 29px; */
+}
+.btn-pool-modal-stake {
+  width: 100%;
+  padding: 1vw 0vw;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4vw;
+  line-height: 2vw;
+  letter-spacing: 0.1px;
+  appearance: none;
+  font-family: "TITILLIUMWEB-REGULAR";
+  border-radius: 2vw;
+  border: none;
+  background-image: linear-gradient(to right, #7d4fb8, #4e198f);
+  cursor: pointer;
+}
+.select-value-stake {
+  color: black;
+}
+
+.img1-stake {
+  width: 1vw;
+  height: auto;
+}
+
+.image-content-stake {
+  display: flex;
+  align-items: center;
+  padding-left: 0.8vw;
+  padding-top: 0.4vw;
+}
+.hr-line-stake {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 133%;
+  margin-left: -4vw;
+}
+.image-content-stake div {
+  font-family: "SourceSansPro-Regular";
+  /* font-family: ""; */
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 2vw;
+  color: #929aa5;
+  padding-left: 0.2vw;
+}

@@ -1,0 +1,171 @@
+.about-us-header {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  /* line-height: 36.5px; */
+  font-family: "TitilliumWeb-Regular";
+  padding-left: 12px;
+  padding-top: 12px;
+}
+.hr-line {
+  width: 5.5%;
+  margin-left: -0.1%;
+  margin-top: 1.5px;
+  background-color: #ffbf00;
+  height: 3px;
+  border-radius: 3px;
+  border: none;
+}
+.about-us-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  color: #aeb4bc;
+  font-family: "SourceSansPro-Regular";
+  text-transform: capitalize;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.about-footer {
+  display: flex;
+  column-gap: 60px;
+  padding-top: 12px;
+  padding-left: 12px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-contact-info {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "TitilliumWeb-Regular";
+  /* line-height: 37px; */
+  color: #fff;
+  text-transform: capitalize;
+}
+.hr-line-contact {
+  width: 100%;
+  margin-left: -0.1%;
+  margin-top: 3px;
+  background-color: #ffbf00;
+  height: 3px;
+  border-radius: 3px;
+  border: none;
+}
+.email-information {
+  font-weight: 400;
+  /* line-height: 31px; */
+  font-size: 16px;
+  font-family: "SourceSansPro-Regular";
+  color: #aeb4bc;
+}
+.about-document-info {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "TitilliumWeb-Regular";
+  /* line-height: 37px; */
+  color: #fff;
+  text-transform: capitalize;
+}
+.hr-line-doc {
+  width: 100%;
+  margin-left: -0.1%;
+  margin-top: 3px;
+  background-color: #ffbf00;
+  height: 3px;
+  border-radius: 3px;
+  border: none;
+}
+.social-media-information {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "TitilliumWeb-Regular";
+  /* line-height: 37px; */
+  color: #fff;
+  text-transform: capitalize;
+}
+.hr-line-social {
+  width: 65%;
+  margin-left: -0.1%;
+  margin-top: 3px;
+  background-color: #ffbf00;
+  height: 3px;
+  border-radius: 3px;
+  border: none;
+}
+.link {
+  padding: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 0px;
+  text-transform: capitalize;
+  font-family: "SourceSansPro-Regular";
+  /* line-height: 31px; */
+  color: #aeb4bc;
+}
+.imag-size {
+  width: 70%;
+  height: auto;
+}
+.social-media-about-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-us-header::after {
+  content: "";
+  width: 4vw;
+  background-color: #ffbf00;
+  height: 3px;
+  display: flex;
+  border-radius: 3px;
+}
+
+@media (min-width: 1200px) {
+  .about-us-paragraph {
+    /* line-height: 1.4vw; */
+    font-size: 1vw;
+  }
+  .about-us-header {
+    font-size: 1.2vw;
+  }
+  .about-us-header::after {
+    width: 3.1vw;
+    height: 0.5vh;
+  }
+  .about-contact-info {
+    font-size: 1.2vw;
+  }
+  .hr-line-contact {
+    width: 5.5vw;
+    margin-top: 0.3vw;
+    height: 0.5vh;
+  }
+  .email-information {
+    font-size: 1vw;
+  }
+  .about-document-info {
+    font-size: 1.2vw;
+    /* line-height: normal; */
+  }
+  .hr-line-doc {
+    width: 8.5vw;
+    margin-top: 0.3vw;
+    height: 0.5vh;
+  }
+  .link {
+    font-size: 1vw;
+  }
+  .social-media-information {
+    font-size: 1.2vw;
+    /* line-height: normal; */
+  }
+  .imag-size {
+    width: 1.3vw;
+    height: auto;
+    /* margin-left: 0.3vw; */
+  }
+  .hr-line-social {
+    width: 6.5vw;
+    margin-top: 0.3vw;
+    height: 0.5vh;
+  }
+}

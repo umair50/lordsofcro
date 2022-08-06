@@ -1,0 +1,80 @@
+.main-content-my-pool {
+  color: #fff;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 1.6vw;
+}
+.img-content {
+  display: flex;
+}
+.img-content-my-pool {
+  display: flex;
+  align-self: center;
+}
+.images-my-pool {
+  display: flex;
+  align-self: center;
+}
+.img-my-pool {
+  margin-right: 0px;
+  width: 26px;
+  height: auto;
+}
+.btn-my-pool {
+  line-height: 34px;
+  font-family: "TitilliumWeb-Regular";
+  color: #0a0a0a;
+  background-image: linear-gradient(to right, #ffca2c, #ffbf00);
+  font-weight: 600;
+  padding: 0px 13px;
+  border: none;
+  text-decoration: none;
+  border-radius: 34px;
+  cursor: pointer;
+}
+.img1-my-pool {
+  position: relative;
+  top: 10px;
+  left: -10px;
+  width: 21px;
+  height: auto;
+}
+.content {
+  color: #fff;
+}
+.data-content-my-pool {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sub-data-my-pool {
+  font-size: 10px;
+  /* margin-top: -9px; */
+}
+.td-my-pool-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.my-pool-end {
+  display: flex;
+  justify-content: center;
+  margin-right: -1.3vw;
+}
+@media (min-width: 1200px) {
+  .btn-my-pool {
+    padding: 0.5vw 1vw;
+    font-size: 0.9vw;
+    line-height: normal;
+    border-radius: 2vw;
+  }
+  .img-my-pool {
+    width: 1.8vw;
+  }
+  .img1-my-pool {
+    width: 1.5vw;
+    top: 0.6vw;
+    left: -0.6vw;
+  }
+  .sub-data-my-pool {
+    font-size: 0.7vw !important;
+  }
+}

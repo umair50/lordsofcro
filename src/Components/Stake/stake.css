@@ -1,0 +1,77 @@
+.main-content-stake {
+  color: #fff;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 1.6vw;
+}
+
+.img-content {
+  display: flex;
+}
+.img-content-stake {
+  display: flex;
+  align-items: center;
+}
+.images {
+  display: flex;
+  align-self: center;
+}
+.img-stake {
+  margin-right: 0px;
+  padding-right: 11px;
+  padding-top: 4px;
+  width: 24px;
+  height: auto;
+}
+.btn-stake {
+  font-family: "TitilliumWeb-Regular";
+  color: #fff;
+  background-image: linear-gradient(to right, #7d4fb8, #4e198f);
+  padding: 0px 16px;
+  border: none;
+  text-decoration: none;
+  border-radius: 34px;
+  cursor: pointer;
+}
+
+.content {
+  color: #fff;
+}
+.text-value {
+  margin-top: 1px;
+  margin-left: -14px;
+}
+.data-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+}
+.sub-data {
+  font-size: 10px;
+  /* margin-top: -9px; */
+}
+.td-stake-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.image-stake {
+  display: block;
+  margin-top: -1.4vw;
+  padding-left: 3.7vw;
+  width: 1.2vw;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .td-stake-end {
+    justify-content: space-evenly;
+  }
+  .btn-stake {
+    padding: 0.7vw 1.3vw;
+    font-size: 0.9vw;
+    border-radius: 2vw;
+    line-height: normal;
+  }
+  .img-stake {
+    width: 1.8vw;
+  }
+}

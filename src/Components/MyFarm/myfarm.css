@@ -1,0 +1,72 @@
+.main-my-content {
+  color: #fff;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 1.6vw;
+}
+.btn-my-farms {
+  line-height: 34px;
+  font-family: "TitilliumWeb-Regular";
+  color: #0a0a0a;
+  background-image: linear-gradient(to right, #ffca2c, #ffbf00);
+  font-weight: 600;
+  padding: 0px 13px;
+  border: none;
+  text-decoration: none;
+  border-radius: 34px;
+  cursor: pointer;
+}
+
+.img-content-farm {
+  display: flex;
+  align-self: center;
+}
+.img-my-farms {
+  margin-right: 0px;
+}
+.text-value {
+  margin-top: 1px;
+  margin-left: -14px;
+}
+
+.img-content-my-farm {
+  display: flex;
+  align-self: center;
+  /* width: 21px;
+  height: 24px; */
+}
+
+.data-content-my-farms {
+  display: flex;
+  align-items: center;
+}
+
+.images-my-farms {
+  display: flex;
+  align-self: center;
+  /* width: 26px;
+  height: auto; */
+}
+.data-content-my-farms {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+}
+.btn-my-farms-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 1200px) {
+  .btn-my-farms {
+    padding: 0.5vw 1vw;
+    font-size: 0.9vw;
+    line-height: normal;
+    border-radius: 2vw;
+  }
+  .btn-my-farms-end {
+    justify-content: space-around;
+  }
+  .img-my-farms {
+    width: 1.8vw;
+  }
+}

@@ -1,0 +1,95 @@
+.main-nav {
+  display: flex;
+}
+.main-nav-right {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+}
+.border-line {
+  height: 26px;
+  border-left: 4px solid;
+  border-image: linear-gradient(to bottom, #ffca2c, #ffbf00) 1 100%;
+}
+.cro-img {
+  width: 2vw;
+  padding-left: 1vw;
+}
+.main-nav-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.text {
+  color: white;
+  padding-left: 12px;
+}
+.border-line {
+  display: flex;
+  margin-left: 10px;
+  height: auto;
+}
+.first-content {
+  padding: 2vw;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menus {
+  display: flex;
+  align-items: center;
+  margin: 12px;
+}
+.nav-menu {
+  padding: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+}
+.btn-btn {
+  font-family: "TitilliumWeb-Regular";
+  background-image: linear-gradient(to right, #7d4fb8, #4e198f);
+  color: #ffffff;
+  /* font-size: 17px; */
+  cursor: pointer;
+  border: none;
+  border-radius: 2vw;
+  padding: 1vw 2vw;
+  font-size: 1.2vw;
+}
+
+@media (min-width: 1200px) {
+  .main-nav {
+    padding: 4vw 4vw;
+  }
+  .logo-main {
+    width: 10vw;
+    height: auto;
+  }
+  .cro-img {
+    width: 2.2vw;
+    padding-left: 1vw;
+  }
+
+  .border-line {
+    margin-right: 1.2vw;
+    align-items: center;
+    border-left: 0.3vw solid;
+  }
+  .nav-menus {
+    margin: 0vw;
+    padding-right: 4vw;
+  }
+  .nav-menu {
+    padding: 1vw;
+    font-size: 1.2vw;
+  }
+  .text {
+    display: flex;
+    align-items: center;
+    padding-left: 0.8vw;
+    font-size: 1.4vw;
+  }
+}

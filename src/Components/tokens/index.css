@@ -1,0 +1,21 @@
+.main-content-token {
+  color: #fff;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 1.6vw;
+}
+.img-content {
+  display: flex;
+  align-items: center;
+}
+.img-token {
+  padding-right: 11px;
+  padding-top: 4px;
+  width: 26px;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .img-token {
+    width: 1.8vw;
+  }
+}

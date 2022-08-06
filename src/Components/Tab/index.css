@@ -1,0 +1,50 @@
+.main-tab {
+  background-color: #372f47;
+  width: 32vw;
+  /* padding: 10px 0px; */
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  /* height: 32px; */
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+.selectedTab {
+  color: #000;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 12px 12px;
+  background-color: #b8add2;
+  border-radius: 30px;
+  border: none;
+  letter-spacing: 0.1px;
+}
+
+.unselectedTab {
+  color: #fff;
+  font-family: "TitilliumWeb-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 12px;
+  cursor: pointer;
+  letter-spacing: 0.1px;
+}
+
+@media (min-width: 1200px) {
+  .main-tab {
+    width: 36vw;
+    border-radius: 2vw;
+  }
+  .selectedTab {
+    font-size: 1vw;
+    padding: 0.7vw;
+    border-radius: 2vw;
+    padding: 1vw 1.2vw;
+  }
+  .unselectedTab {
+    font-size: 1vw;
+    padding: 1vw 1.2vw;
+  }
+}

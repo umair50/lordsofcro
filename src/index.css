@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #08060b;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 6px;
+}
+th {
+  color: #7851a9;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "TitilliumWeb-Regular";
+  background-color: #27262c;
+  padding: 8px;
+  text-align: left;
+  padding-left: 18px;
+  letter-spacing: 0.01px;
+}
+td {
+  color: #fff;
+  padding: 1.1vw;
+  text-align: left;
+  font-family: "Montserrat-Regular";
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 28px; */
+}
+tr:nth-child(odd) {
+  background-color: #1e1c22;
+}
+tr:nth-child(even) {
+  background-color: #27262c;
+}
+
+@font-face {
+  font-family: "TitilliumWeb-Regular";
+  src: url("./fonts/TitilliumWeb-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url("./fonts/SourceSansPro-Regular.ttf") format("truetype");
+}
+@media (min-width: 1200px) {
+  th {
+    font-size: 1vw;
+  }
+  td {
+    font-size: 0.9vw;
+  }
+}

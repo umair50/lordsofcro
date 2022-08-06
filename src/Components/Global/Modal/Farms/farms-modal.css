@@ -1,0 +1,38 @@
+.modal-content-farm-head {
+  display: flex;
+  /* padding-top: 34px; */
+  justify-content: center;
+}
+.modal-button-earn-farm-stake {
+  color: #fff;
+  cursor: pointer;
+  font-size: 2vw;
+  font-weight: 600;
+  font-family: "TITILLIUMWEB-REGULAR";
+  letter-spacing: 0.1px;
+  line-height: 2vw;
+  padding-left: 0.9vw;
+}
+
+.unselectedTab-farm-modal {
+  cursor: pointer;
+  color: #372f47;
+  font-size: 1.6vw;
+  letter-spacing: 0.1px;
+  line-height: 2vw;
+  font-family: "TITILLIUMWEB-REGULAR";
+  padding-left: 0.9vw;
+}
+/* .font-awesome-farm-val {
+  cursor: pointer;
+  color: #e3e3e4;
+  padding-left: 42px;
+} */
+.icon-farm {
+  padding-left: 10vw;
+  display: flex;
+  align-items: center;
+}
+.icon-farm .fa-1x {
+  font-size: 1.4vw;
+}

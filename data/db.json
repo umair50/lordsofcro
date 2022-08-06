@@ -1,0 +1,28 @@
+{
+  "tokens": [
+    {
+      "name": "LOC",
+      "price": "25$",
+      "price_change": "35$",
+      "volume24h": "lorem ipsums",
+      "liquidit": "yes",
+      "id": "1"
+    },
+    {
+      "name": "CBO",
+      "price": "30$",
+      "price_change": "35$",
+      "volume24h": "lorem ipsum12",
+      "liquidit": "NO",
+      "id": "2"
+    },
+    {
+      "name": "CRO",
+      "price": "25$",
+      "price_change": "40$ ",
+      "volume24h": "loremipsum213",
+      "liquidit": "yes",
+      "id": "3"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+.modal-content-stake-now-head {
+  display: flex;
+  /* padding-top: 34px; */
+  justify-content: center;
+}
+.modal-button-stake-now {
+  /* padding: 10px; */
+  color: #fff;
+  cursor: pointer;
+  font-size: 2vw;
+  font-weight: 600;
+  font-family: "TITILLIUMWEB-REGULAR";
+  letter-spacing: 0.1px;
+  line-height: 2vw;
+  padding-left: 0.9vw;
+}
+
+.unselectedTab-stake-now-modal {
+  cursor: pointer;
+  color: #372f47;
+  font-size: 1.6vw;
+  letter-spacing: 0.1px;
+  line-height: 2vw;
+  font-family: "TITILLIUMWEB-REGULAR";
+  padding-left: 0.9vw;
+  padding-top: 0.2vw;
+
+  /* padding-top: 10px; */
+}
+.font-awesome-stake-now-val {
+  cursor: pointer;
+  color: #e3e3e4;
+  padding-left: 42px;
+}
+.icon-stake-now {
+  padding-left: 10vw;
+  display: flex;
+  align-items: center;
+}
+.icon-stake-now .fa-1x {
+  font-size: 1.4vw;
+}
